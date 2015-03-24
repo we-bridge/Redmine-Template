@@ -1,3 +1,6 @@
 [submodule "plugins/redmine_dashboard"]
 	path = plugins/redmine_dashboard
 	url = git@github.com:jgraichen/redmine_dashboard.git
+[submodule "plugins/redmine_ckeditor"]
+	path = plugins/redmine_ckeditor
+	url = git@github.com:a-ono/redmine_ckeditor.git
