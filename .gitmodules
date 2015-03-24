@@ -22,3 +22,6 @@
 [submodule "plugins/redmine_silencer"]
 	path = plugins/redmine_silencer
 	url = git@github.com:paginagmbh/redmine_silencer.git
+[submodule "plugins/redmine_dmsf"]
+	path = plugins/redmine_dmsf
+	url = git@github.com:danmunn/redmine_dmsf.git

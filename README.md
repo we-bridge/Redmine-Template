@@ -12,6 +12,7 @@ others are directly added as-is in the repository.
 - Git Remote (Latest)
 - Default Members (Latest)
 - Silencer (Latest)
+- DMSF v1.4.9
 
 == Other plugins
 
