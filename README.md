@@ -4,6 +4,8 @@ Plugins List
 Open-source plugins are added as sub-modules while
 others are directly added as-is in the repository.
 
+Those are for Redmine 2.6
+
 Submodules
 ==
 
@@ -25,8 +27,40 @@ Other plugins
 - Work Time v0.3.0
 - People Light v0.1.8
 
-Requirements
+Install
+=
+
+Installing required packages
 ==
 
-- Redmine v2.6
-- ImageMagick (For CKEditor)
+    apt-get install imagemagick
+    apt-get install zlib1g-dev
+    apt-get install uuid-dev
+
+Installing the plugins
+==
+
+    bundle install --without development test
+
+Troubleshooting
+===
+
+Nokogiri Gem
+====
+
+If you have an error when installing the nokogiri bundle,
+it might require the following configuration:
+
+    bundle config build.nokogiri --use-system-libraries
+
+Xapian Gem
+====
+The xapian gems aren't required as its installation may have issues,
+you may add "xapian" to the '--without' list, for example:
+
+    bundle install --without development test xapian
+
+Running Database Migrations
+==
+
+    rake redmine:plugins:migrate RAILS_ENV=production
