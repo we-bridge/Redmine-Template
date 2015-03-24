@@ -7,3 +7,6 @@
 [submodule "plugins/redmine_knowledgebase"]
 	path = plugins/redmine_knowledgebase
 	url = git@github.com:alexbevi/redmine_knowledgebase.git
+[submodule "plugins/redmine_login_audit"]
+	path = plugins/redmine_login_audit
+	url = git@github.com:martin-denizet/redmine_login_audit.git
