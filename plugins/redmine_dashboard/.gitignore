@@ -1,0 +1,8 @@
+/.ruby-version
+*.lock
+/tmp
+/.bundle
+/.rspec
+/.idea
+/*.iml
+/dist
