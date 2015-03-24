@@ -25,3 +25,6 @@
 [submodule "plugins/redmine_dmsf"]
 	path = plugins/redmine_dmsf
 	url = git@github.com:danmunn/redmine_dmsf.git
+[submodule "plugins/redmine_tags"]
+	path = plugins/redmine_tags
+	url = git@github.com:redminecrm/redmine_tags.git
