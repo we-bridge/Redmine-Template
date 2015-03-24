@@ -10,9 +10,6 @@
 [submodule "plugins/redmine_login_audit"]
 	path = plugins/redmine_login_audit
 	url = git@github.com:martin-denizet/redmine_login_audit.git
-[submodule "plugins/redmine_advanced_roadmap_v2"]
-	path = plugins/redmine_advanced_roadmap_v2
-	url = git@github.com:Coren/redmine_advanced_roadmap_v2.git
 [submodule "plugins/redmine_git_remote"]
 	path = plugins/redmine_git_remote
 	url = git@github.com:dergachev/redmine_git_remote.git

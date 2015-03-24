@@ -13,7 +13,6 @@ Submodules
 - CKEditor v1.1.0
 - Knowledgebase v3.0.7
 - Login Audit v0.1.5
-- Advanced Roadmap (Latest)
 - Git Remote (Latest)
 - Default Members (Latest)
 - Silencer (Latest)
