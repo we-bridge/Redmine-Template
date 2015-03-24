@@ -11,6 +11,7 @@ others are directly added as-is in the repository.
 - Advanced Roadmap (Latest)
 - Git Remote (Latest)
 - Default Members (Latest)
+- Silencer (Latest)
 
 == Other plugins
 

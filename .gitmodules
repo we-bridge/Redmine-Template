@@ -19,3 +19,6 @@
 [submodule "plugins/redmine_default_members"]
 	path = plugins/redmine_default_members
 	url = git@github.com:jbox-web/redmine_default_members.git
+[submodule "plugins/redmine_silencer"]
+	path = plugins/redmine_silencer
+	url = git@github.com:paginagmbh/redmine_silencer.git
