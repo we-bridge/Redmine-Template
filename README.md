@@ -17,6 +17,7 @@ others are directly added as-is in the repository.
 == Other plugins
 
 - Checklists Light v3.0.4
+- Work Time v0.3.0
 
 == Requirements
 
