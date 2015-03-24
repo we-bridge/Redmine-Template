@@ -4,3 +4,6 @@
 [submodule "plugins/redmine_ckeditor"]
 	path = plugins/redmine_ckeditor
 	url = git@github.com:a-ono/redmine_ckeditor.git
+[submodule "plugins/redmine_knowledgebase"]
+	path = plugins/redmine_knowledgebase
+	url = git@github.com:alexbevi/redmine_knowledgebase.git
