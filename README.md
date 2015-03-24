@@ -1,8 +1,11 @@
-= Plugins List
+Plugins List
+=
+
 Open-source plugins are added as sub-modules while
 others are directly added as-is in the repository.
 
-== Submodules
+Submodules
+==
 
 - Dashboard v2 Stable
 - CKEditor v1.1.0
@@ -15,13 +18,15 @@ others are directly added as-is in the repository.
 - DMSF v1.4.9
 - Tags (Lastest)
 
-== Other plugins
+Other plugins
+==
 
 - Checklists Light v3.0.4
 - Work Time v0.3.0
 - People Light v0.1.8
 
-== Requirements
+Requirements
+==
 
 - Redmine v2.6
 - ImageMagick (For CKEditor)
