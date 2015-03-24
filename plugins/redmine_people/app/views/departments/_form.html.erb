@@ -1,0 +1,10 @@
+<%= error_messages_for @department %>
+
+<div class="box tabular">
+<p><%= f.text_field :name, :required => true %></p>
+<p><%= f.text_area :background, :rows => 5, :label => :label_people_background, :class => 'wiki-edit' %></p>
+<p><%= f.select :head_id, options_for_select(Person.active.in_department(@department).order(:lastname).order(:firstname).map{|d| [d.name, d.id]}.insert(0, ['', '']), :selected => @department.head_id), :label => l(:label_department_head) %></p>
+<% unless @department.allowed_parents.compact.empty? %>
+    <p><%= label(:department, :parent_id, l(:field_department_parent)) %><%= parent_department_select_tag(@department) %></p>
+<% end %>
+</div>

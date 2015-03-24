@@ -1,0 +1,193 @@
+/**************************************************************/
+/*                   PEOPLE_PLUGIN_SETTINGS
+/**************************************************************/
+
+.select-users fieldset label {
+	display: block;
+}
+.select-users fieldset div {
+	max-height: 400px;
+	overflow: auto;
+}
+
+
+
+/**************************************************************/
+/*                   SHOW_PERSON_HEADER
+/**************************************************************/
+
+
+div.person.details {
+	background:  #eee;
+	padding: 6px;
+	margin-bottom: 6px;
+	border: 1px solid	#d7d7d7;
+}
+
+div.person.details table.subject_header {
+	width: 100%;
+}
+
+div.person.details table.subject_header h1 {
+	margin-bottom: 0px;
+}
+
+
+div.person.details table.subject_header td.avatar {
+	vertical-align: top;
+	vertical-align: top;
+	text-align: right;
+	width: 70px;
+}
+
+div.person.details table.subject_header td.subject_info {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left: 1px solid #D7D7D7;
+	min-width: 200px;
+	width: 200px;
+}
+
+div.person.details table.subject_header td.subject_info ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+div.person.details  table.subject_header td.subject_info li {
+	line-height: 20px;
+	white-space: nowrap;
+}
+
+
+/**************************************************************/
+/*                   PERSON_DATA
+/**************************************************************/
+table.person_data {
+	width: 100%;
+}
+
+table.person_data td.name {
+	padding-left: 0px;
+	vertical-align: top;
+}
+
+table.person_data td.avatar {
+	vertical-align: top;
+	width: 38px;
+	padding: 10px 4px 0px 0px;
+}
+
+table.person_data td.name h4 {
+	letter-spacing: -1px;
+	margin: 7px 0 0 0;
+	padding: 0;
+	line-height: 1.1em;
+	border-bottom: 0px;
+}
+
+
+/**************************************************************/
+/*                   PEOPLE_TABLE_LIST					  	*/
+/**************************************************************/
+
+.live_search input.live_search_field {
+	font-size: 16px;
+}
+
+table.people.index {
+	border-top: 1px solid rgb(239, 239, 239);
+	border-right: 1px solid rgb(239, 239, 239);
+	border-left: 1px solid rgb(239, 239, 239);
+	width: 100%; 
+	border-spacing: 0px 0px; 
+	margin-bottom: 4px; 
+}    
+
+table.people.index tr.selected{ background-color: #507AAA !important;	color: #F8F8F8 !important;} 
+/*table.people.index tr.selected a { color: #F8F8F8 !important; } */
+table.people.index tr.context-menu-selection h2 { color: #F8F8F8 !important; } 
+table.people.index tr.context-menu-selection td { color: #F8F8F8 !important; } 
+table.people.index tr.context-menu-selection span.tag a { border: 1px solid #EFEFEF; padding: 2px 3px; }
+table.people.index tr.context-menu-selection span.deal-status { border: 1px solid #EFEFEF; padding: 2px 3px; }
+
+table.people.index tbody tr:hover { background-color:#ffffdd; } 
+
+table.people.index td {
+  vertical-align: top;
+  color: #666;
+  font-size: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #efefef; 
+}
+
+table.people.index td.checkbox { padding: 12px 0px 0px 5px; }
+table.people.index td.name { width: 50%; padding-right: 10px;} 
+table.people.index td.info { width: 50%; padding-right: 5px; }
+table.people.index td.avatar {padding: 10px 10px 10px 5px;}
+
+table.people.index th {padding: 5px 10px 5px 0px; border-bottom: 1px solid #efefef; vertical-align: top;}
+table.people.index th.title {text-align: right;}
+table.people.index th.sum {text-align: left;}
+
+table.people.deals.index td.avatar {padding: 10px 10px 10px 10px;}
+
+
+/*table.people.index td.avatar {margin-left: 50px;}*/
+
+table.people.index td.name h1 {	font-size: 20px; font-weight: normal;
+	margin: 0;
+	padding: 0;
+}         
+
+table.people.index td.name h1.deal_name {
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+table.people.index td.name h1.selected { background-color: #ffb;}
+table.people.index td.name h2.selected { background-color: #ffb;}
+
+table.people.index td.name h2 {
+	font-size: 13px;
+	color: #777;
+	font-weight: normal;
+	line-height: 140%;
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+}
+
+div.Right td.name div.info {
+	padding-top: 3px;
+	margin-left: 42px;
+}
+/*#edit_tags_form {display: block;	margin-top: 10px;}*/
+.notes div.contextual {vertical-align: top;}
+
+div#people_groups ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+/**************************************************************/
+/*                   DEPARTMENTS
+/**************************************************************/
+ul.department-tree {margin: 0;  padding: 0;}
+ul.department-tree li {list-style-type:none; margin: 0px 2px 0px 0px; padding: 0px 0px 0px 0px;}
+
+/**************************************************************/
+/*                   ICONS
+/**************************************************************/
+#admin-menu a.people { background-image: url(../images/user_suit.png);}
+
+.icon-email {background-image: url(../images/email.png);}
+.icon-twitter {background-image: url(../images/twitter.png);}
+.icon-skype {background-image: url(../images/skype.png);}
+.icon-facebook {background-image: url(../images/facebook.png);}
+.icon-linkedin {background-image: url(../images/linkedin.png);}
+
+
+   

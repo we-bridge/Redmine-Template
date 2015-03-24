@@ -1,0 +1,4 @@
+$('#tab-content-acl').html('<%= escape_javascript(render :partial => 'people_settings/acl') %>');
+<% @users_acl.each do |acl| %>
+  $('#user-<%= acl.principal_id %>').effect("highlight");
+<% end %>

@@ -1,0 +1,14 @@
+<table class="person_data" id="person_birthday_<%= person_birthday.id %>">
+  <tr>
+    <td class="avatar"><%= link_to avatar(person_birthday, :size => "32"), person_path(person_birthday), :id => "avatar" %></td>
+    <td class="name">
+      <h4 class="contacts_header">
+        <%= link_to person_birthday.name, person_path(person_birthday) %>
+      </h4>
+      <p>
+          <span class="birthday bday" title=<%= "#{format_date(person_birthday.birthday)}" %>><%= birthday_date(person_birthday) %></span>
+
+      </p>
+    </td> 
+  </tr>
+</table>  

@@ -13,11 +13,13 @@ others are directly added as-is in the repository.
 - Default Members (Latest)
 - Silencer (Latest)
 - DMSF v1.4.9
+- Tags (Lastest)
 
 == Other plugins
 
 - Checklists Light v3.0.4
 - Work Time v0.3.0
+- People Light v0.1.8
 
 == Requirements
 

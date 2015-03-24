@@ -1,0 +1,60 @@
+# English strings go here for Rails i18n
+ru:
+  label_people: Сотрудники
+  label_people_edit_person: Редактирование сотрудника
+  label_people_new_person: Новый сотрудник
+  label_people_group_plular: Группы
+  label_people_search: Поиск по имени
+  label_people_show_on_map: Показать на карте
+  label_people_person: Сотрудник
+  label_people_all: Показать всех
+  label_people_next_birthdays: Дни рождения
+  label_people_new_people: Новые сотрудники
+  label_people_male: 'Муж.'
+  label_people_female: 'Жен.'
+  label_people_settings: Настройки сотрудников
+
+  button_people_edit_profile: Редактировать профиль
+
+  label_people_avatar: Avatar
+  label_people_job_title: Должность
+  label_people_phone: Телефон
+  label_people_phone_plural: Телефоны
+  label_people_skype: Skype
+  label_people_twitter: Twitter
+  label_people_facebook: Facebook
+  label_people_linkedin: LinkedIn
+  label_people_middlename: Отчество
+  label_people_background: Дополнительная информация
+  label_people_address: Адрес
+  label_people_gender: Пол
+  label_people_birthday: Дата рождения
+  label_people_appearance_date: Дата начала работы
+  label_people_age: Возраст
+
+  people_permission_edit_people: Редактирования сотрудников
+  people_permission_view_people: Просмотр сотрудников
+  people_permission_add_people: Добавление сотрудников
+  people_permission_delete_people: Удаление сотрудников
+  people_permission_add_attachments: Добавление файлов
+
+  #0.0.2
+  label_people_acl_settings: Права доступа
+  label_people_visibility: Видимость
+  label_people_visibility_select: Показывать сотрудников
+  label_people_visibility_resistered: Для зарегистрированных пользователей
+  label_people_visibility_selected: Для выбранных пользователей
+  label_people_visibility_anonymous: Для анонимных пользователей
+
+  #0.0.3
+  label_department_plural: Отделы
+  label_department_new: Новый отдел
+  label_department: Отдел
+  label_department_head: Руководитель
+  label_people_department: Отдел
+  label_people_at_department: в
+  field_department_parent: Родительский отдел
+  people_permission_edit_departments: Редактирование отделов
+
+  #0.1.5
+  people_permission_delete_departments: Удаление отделов

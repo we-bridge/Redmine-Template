@@ -1,0 +1,52 @@
+<div class = "box tabular" id="person_data">
+
+	<p class="avatar" id="watchers">
+		<%= avatar(@person, :size => "64", :height => 64, :width => 64, :style => "vertical-align: middle;") %>
+		<%= link_to image_tag('delete.png'), {:controller => 'attachments', :action => 'destroy', :id => @person.avatar},
+	                                         :confirm => l(:text_are_you_sure),
+	                                         :method => :delete,
+	                                         :class => 'delete',
+											 :style => "vertical-align: middle;",
+	                                         :title => l(:button_delete) unless @person.avatar.blank? %>
+	</p>
+	<p><%= label_tag l(:label_people_avatar) %> <%= file_field_tag 'person_avatar[file]', :size => 30, :id => nil  -%> </p>
+	<p><%= f.text_field :firstname, :required => true %></p>
+	<p><%= f.text_field :middlename, :label => l(:label_people_middlename) %></p>
+	<p><%= f.text_field :lastname, :required => true %></p>
+	<% if @person.id != User.current.id %>
+	<p><%= f.select :status, options_for_select([[l(:status_active), '1'], [l(:status_locked), '3']], @person.status.to_s) %></p>
+	<% end %>
+
+	<% unless @departments.blank? %>
+		<p><%= f.select :department_id, department_tree_options_for_select(@departments,  :selected => @person.department), :include_blank => true, :label => l(:label_people_department) %></p>
+	<% end %>
+	<p><%= f.select :gender, Person::GENDERS, :label => l(:label_people_gender)%></p>
+	<p><%= f.text_field :appearance_date, :size => 12, :label => l(:label_people_appearance_date) %><%= calendar_for('person_appearance_date') %> </p>
+	<p><%= f.text_field :birthday, :size => 12, :label => l(:label_people_birthday) %><%= calendar_for('person_birthday') %> </p>
+	<p><%= f.text_field :job_title, :label => l(:label_people_job_title) %></p>
+	<p><%= f.text_field :mail, :required => true %></p>
+	<p><%= f.text_area :address, :label=>l(:label_people_address), :rows => 5 -%></p>
+
+	<div id="phones_fields">
+		<p>
+			<%= f.text_field :phone, :label => l(:label_people_phone), :size => 80 -%>
+			<br>
+			<em><%= l(:text_comma_separated) %></em>
+		 </p>
+	</div>
+
+ 	<p><%= f.text_field :skype, :label => l(:label_people_skype) -%></p>
+ 	<p><%= f.text_field :facebook, :label => l(:label_people_facebook) + ' ID'-%></p>
+ 	<p><%= f.text_field :twitter, :label => l(:label_people_twitter) -%></p>
+ 	<p><%= f.text_field :linkedin, :label => l(:label_people_linkedin) + ' ID' -%></p>
+
+	<p class  = "notes"><%= f.text_area :background , :cols => 80, :rows => 8, :class => 'wiki-edit', :label => l(:label_people_background)  %></p>
+	<%= wikitoolbar_for 'person_background' %>
+
+
+
+</div>
+
+
+
+

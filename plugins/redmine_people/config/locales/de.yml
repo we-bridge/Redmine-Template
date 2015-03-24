@@ -1,0 +1,60 @@
+# German strings go here for Rails i18n
+de:
+  label_people: Mitarbeiter
+  label_people_edit_person: Persönliche Informationen bearbeiten
+  label_people_new_person: Neuer Mitarbeiter
+  label_people_group_plular: Gruppen
+  label_people_search: Suche nach Namen
+  label_people_show_on_map: Auf der Karte zeigen
+  label_people_person: Person
+  label_people_all: Zeige alle Mitarbeiter
+  label_people_next_birthdays: Nächste Geburtstage
+  label_people_new_people: Neue Mitarbeiter
+  label_people_male: Männlich
+  label_people_female: Weiblich
+  label_people_settings: Miterbeiter Einstellungen
+
+  button_people_edit_profile: Profil bearbeiten
+
+  label_people_avatar: Avatar
+  label_people_job_title: Berufsbezeichnung
+  label_people_phone: Telefonnummer
+  label_people_phone_plural: Telefonnummern
+  label_people_skype: Skype
+  label_people_twitter: Twitter
+  label_people_facebook: Facebook
+  label_people_linkedin: LinkedIn
+  label_people_middlename: Mittelname
+  label_people_background: Weiter Informationen
+  label_people_address: Adresse
+  label_people_gender: Geschlecht
+  label_people_birthday: Geburtstag
+  label_people_appearance_date: Beschäftigt seit
+  label_people_age: Alter
+
+  people_permission_edit_people: Mitarbeiter bearbeiten
+  people_permission_view_people: Mitarbeiter anzeigen
+  people_permission_add_people: Mitarbeiter hinzufügen
+  people_permission_delete_people: Mitarbeiter löschen
+  people_permission_add_attachments: Anhänge hinzufügen
+
+  #0.0.2
+  label_people_acl_settings: ACL Einstellungen
+  label_people_visibility: Sichtbarkeit
+  label_people_visibility_select: Mitarbeiter anzeigen
+  label_people_visibility_resistered: nur für registrierte Benutzer
+  label_people_visibility_selected: nur für ausgewählte Benutzer
+  label_people_visibility_anonymous: für jeden
+
+  #0.0.3
+  label_department_plural: Abteilungen
+  label_department_new: Neue Abteilung
+  label_department: Abteilung
+  label_department_head: Abteilungsleiter
+  label_people_department: Abteilung
+  label_people_at_department: in
+  field_department_parent: Unterabteilung
+  people_permission_edit_departments: Abteilungen bearbeiten
+
+  #0.1.5
+  people_permission_delete_departments: Abteilungen löschen

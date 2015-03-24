@@ -1,0 +1,51 @@
+== Redmine People plugin changelog
+
+Redmine People plugin - User management plugin for redmine
+Copyright (C) 2011-2014  Kirill Bezrukov
+http://www.redminecrm.com/
+
+== 2014-03-26 v0.1.8
+
+* Fixed bug with CRM plugin relation
+
+== 2014-03-25 v0.1.7
+
+* Permission for view people
+* Ruby 2.0.0 support (vpim gem changed to vcard)
+* Dutch translation
+* Tukish translation (Giray Pultar)
+* Serbian translation (Miodrag Milić)
+* German translation (Bastian Lüttig)
+* Japanese tranlation (Stephane Lapie)
+* Slovak tranlation (Martin Bucko)
+* Spanish tranlation (Martin Roberto Tolava)
+* Fixed bug for group permissions
+
+== 2013-01-31 v0.1.5
+
+* Fixed bug with departments
+
+== 2013-01-22 v0.1.4
+
+* Edit button for showing departments list from people list
+* Fixed bug with custom fields in Redmine 2.2
+* Fixed bug with edit departments check permissions
+* Fixed bug with avatar image
+* Departments
+* Polish locale (thanks to Rencz Jarek)
+* Bug: Cannot add Group in ACL control
+* Bug: After editing a person i people custom field values in user profile get removed
+* Facebook and Twitter profile pictures to avatar
+* Replacement of default "user" page
+* Permissions for anonymous and registered users
+* Bug: Internal error on opening people settings
+* Bug: Permissions for group now works
+
+== 2012-11-06 v0.0.1
+
+* Local avatars for users
+* Global users list with flexible ACL
+* Attachments for users
+* Person VCF export
+* Next birthdays list
+* New people list

@@ -1,0 +1,15 @@
+<h2><%= l(:label_people_settings) %></h2>
+<%= error_messages_for 'people_setting' %>
+
+<% people_tabs = [{:name => 'general', :partial => 'general', :label => :label_general},
+        {:name => 'acl', :partial => 'acl', :label => :label_people_acl_settings},
+        {:name => 'departments', :partial => 'departments', :label => :label_department_plural}
+        ]   %>   
+
+<%  people_tabs.push({:name => 'hidden', :partial => 'hidden', :label => :label_people_hidden}) if params[:hidden] %>
+
+<%= render_tabs people_tabs %>
+
+<% html_title(l(:label_settings), l(:label_people)) -%>  
+
+

@@ -1,0 +1,13 @@
+<%= form_tag({:controller => :people_settings, :action => :update, :id => '1', :tab => 'general'},
+               :method => :put, :id => "people_acl_form") do %>
+  <fieldset class="box tabular"><legend><%=l(:label_people_visibility)%></legend>
+
+  <p>
+    <label><%= l(:label_people_show_for_registered_users) %></label>
+    <%= hidden_field_tag 'settings[visibility]', 0, :id => nil %>
+    <%= check_box_tag 'settings[visibility]', 1, Setting.plugin_redmine_people["visibility"].to_s == "1" %>
+  </p>
+
+  </fieldset>
+  <%= submit_tag l(:button_apply) %>
+<% end %>

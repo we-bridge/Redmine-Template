@@ -1,0 +1,56 @@
+<div class="splitcontentleft">
+<% if @users_acl.any? %>
+  <table class="list users members">
+    <thead><tr>
+      <th><%= l(:label_user) %></th>
+      <th><%= l(:label_permissions) %></th>
+      <th style="width:15%"></th>
+    </tr></thead>
+    <tbody>
+    <% @users_acl.each do |acl| %>
+      <tr id="user-<%= acl.principal_id %>" class="<%= cycle 'odd', 'even' %>">
+        <td class="user <%= 'group' if acl.principal.is_a?(Group) %>"><%= link_to_user acl.principal %></td>
+        <td class="acls">
+          <%= acl.permissions.map{|a| l_or_humanize(a, :prefix => 'people_permission_') }.join(', ') %>
+        </td>
+        <td class="buttons">
+          <%= delete_link url_for(:controller => "people_settings", :action => "destroy",  :id => acl.principal_id ), :remote => true %>
+        </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p class="nodata"><%= l(:label_no_data) %></p>
+<% end %>
+</div>
+
+<div class="splitcontentright">
+
+
+<% principals = Principal.active.all(:limit => 100, :order => 'type, login, lastname ASC') %>
+<% if principals.any? %>
+  <%= form_tag({:controller => :people_settings, :action => :create}, :remote => true,
+               :method => :post, :id => "people_acl_form", :class => "select-users") do |f| %>
+    <fieldset><legend><%=l(:label_user_new)%></legend>
+
+    <p><%= label_tag "user_search", l(:label_user_search) %><%= text_field_tag 'user_search', nil %></p>
+    <%= javascript_tag "observeSearchfield('user_search', 'principals', '#{ escape_javascript url_for(:controller => :people_settings, :action => :autocomplete_for_user) }')" %>
+
+    <div id="principals">
+      <%= people_principals_check_box_tags 'user_ids[]', principals %>
+    </div>
+    <p><%= l(:label_permissions) %>:
+    <% RedminePeople.available_permissions.each do |role| %>
+      <label>
+        <%= check_box_tag 'acls[]', role %>
+        <%= l_or_humanize(role, :prefix => 'people_permission_') %>
+      </label>
+    <% end %></p>
+
+    <p><%= submit_tag l(:button_add) %></p>
+    </fieldset>
+  <% end %>
+<% end %>
+
+</div>

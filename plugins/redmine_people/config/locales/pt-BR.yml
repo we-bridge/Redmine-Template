@@ -1,0 +1,61 @@
+# encoding: utf-8
+# English strings go here for Rails i18n
+pt-BR:
+  label_people: Contato
+  label_people_edit_person: Editando informações do contato
+  label_people_new_person: Novo contato
+  label_people_group_plular: Grupos
+  label_people_search: Buscar por nome
+  label_people_show_on_map: Mostrar no mapa
+  label_people_person: Contato
+  label_people_all: Mostrar todos contatos
+  label_people_next_birthdays: Próximos aniversários
+  label_people_new_people: Novo contato
+  label_people_male: Masculino
+  label_people_female: Feminino
+  label_people_settings: Configurações de contato
+
+  button_people_edit_profile: Editar perfil
+
+  label_people_avatar: Avatar
+  label_people_job_title: Cargo
+  label_people_phone: Telefone
+  label_people_phone_plural: Telefones
+  label_people_skype: Skype
+  label_people_twitter: Twitter
+  label_people_facebook: Facebook
+  label_people_linkedin: LinkedIn
+  label_people_middlename: Segundo nome
+  label_people_background: Informação
+  label_people_address: Endereço
+  label_people_gender: Sexo
+  label_people_birthday: Data de nascimento
+  label_people_appearance_date: Data de registro
+  label_people_age: Idade
+
+  people_permission_edit_people: Editar contato
+  people_permission_view_people: Visualizar contato
+  people_permission_add_people: Adicionar contato
+  people_permission_delete_people: Deletar contato
+  people_permission_add_attachments: Adicionar anexos
+
+  #0.0.2
+  label_people_acl_settings: Configuração de ACL
+  label_people_visibility: Visibilidade de contatos
+  label_people_visibility_select: Mostrar contato
+  label_people_visibility_resistered: Para usuários registrados
+  label_people_visibility_selected: Para usuários selecionados
+  label_people_visibility_anonymous: Para usuários anônimos
+
+  #0.0.3
+  label_department_plural: Departamentos
+  label_department_new: Novo departamento
+  label_department: Departamento
+  label_department_head: Chefe
+  label_people_department: Departamento
+  label_people_at_department: no
+  field_department_parent: Sub-departamento de
+  people_permission_edit_departments: Editar departamento
+
+  #0.1.5
+  people_permission_delete_departments: Deletar departamento

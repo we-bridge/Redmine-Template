@@ -1,0 +1,66 @@
+# English strings go here for Rails i18n
+en:
+  label_people: People
+  label_people_edit_person: Editing person information
+  label_people_new_person: New person
+  label_people_group_plular: Groups
+  label_people_search: Search by name
+  label_people_show_on_map: Show on map
+  label_people_person: Person
+  label_people_all: Show all people
+  label_people_next_birthdays: Next birthdays
+  label_people_new_people: New people
+  label_people_male: Male
+  label_people_female: Female
+  label_people_settings: People settings
+
+  button_people_edit_profile: Edit profile
+
+  label_people_avatar: Avatar
+  label_people_job_title: Job title
+  label_people_phone: Phone
+  label_people_phone_plural: Phones
+  label_people_skype: Skype
+  label_people_twitter: Twitter
+  label_people_facebook: Facebook
+  label_people_linkedin: LinkedIn
+  label_people_middlename: Middle name
+  label_people_background: Background info
+  label_people_address: Address
+  label_people_gender: Gender
+  label_people_birthday: Birthday
+  label_people_appearance_date: Appearance date
+  label_people_age: Age
+
+  people_permission_edit_people: Edit people
+  people_permission_view_people: View people
+  people_permission_add_people: Add people
+  people_permission_delete_people: Delete people
+  people_permission_add_attachments: Add atthachments
+
+  #0.0.2
+  label_people_acl_settings: ACL settings
+  label_people_visibility: People visibility
+  label_people_visibility_select: Show people
+  label_people_visibility_resistered: For registered users
+  label_people_visibility_selected: For selected users
+  label_people_visibility_anonymous: For anonymous users
+
+  #0.0.3
+  label_department_plural: Departments
+  label_department_new: New department
+  label_department: Department
+  label_department_head: Head
+  label_people_department: Department
+  label_people_at_department: at
+  field_department_parent: Subdepartment of
+  people_permission_edit_departments: Edit departments
+
+  #0.1.5
+  people_permission_delete_departments: Delete departments
+
+  #0.1.6
+  label_people_new_mail: New message
+
+  #0.1.7
+  label_people_show_for_registered_users: Show people for registered users
