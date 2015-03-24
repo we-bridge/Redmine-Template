@@ -16,3 +16,6 @@
 [submodule "plugins/redmine_git_remote"]
 	path = plugins/redmine_git_remote
 	url = git@github.com:dergachev/redmine_git_remote.git
+[submodule "plugins/redmine_default_members"]
+	path = plugins/redmine_default_members
+	url = git@github.com:jbox-web/redmine_default_members.git
