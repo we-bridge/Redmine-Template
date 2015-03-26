@@ -25,3 +25,6 @@
 [submodule "plugins/redmine_tags"]
 	path = plugins/redmine_tags
 	url = git@github.com:redminecrm/redmine_tags.git
+[submodule "plugins/redmine_equipment_status_viewer"]
+	path = plugins/redmine_equipment_status_viewer
+	url = git@github.com:sukima/redmine_equipment_status_viewer.git

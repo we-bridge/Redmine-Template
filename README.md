@@ -18,6 +18,7 @@ Submodules
 - Silencer (Latest)
 - DMSF v1.4.9
 - Tags (Lastest)
+- Equipment Status Viewer (Latest)
 
 Other plugins
 ==
@@ -51,13 +52,6 @@ If you have an error when installing the nokogiri bundle,
 it might require the following configuration:
 
     bundle config build.nokogiri --use-system-libraries
-
-Xapian Gem
-====
-The xapian gems aren't required as its installation may have issues,
-you may add "xapian" to the '--without' list, for example:
-
-    bundle install --without development test xapian
 
 Running Database Migrations
 ==
