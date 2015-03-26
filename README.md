@@ -20,6 +20,7 @@ Submodules
 - Tags (Lastest)
 - Equipment Status Viewer (Latest)
 - Lightbox2 (Latest for Redmine 2.6)
+- Tweaks (Latest)
 
 Other plugins
 ==

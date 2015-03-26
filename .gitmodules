@@ -31,3 +31,6 @@
 [submodule "plugins/redmine_lightbox2"]
 	path = plugins/redmine_lightbox2
 	url = git@github.com:paginagmbh/redmine_lightbox2.git
+[submodule "plugins/redmine_tweaks"]
+	path = plugins/redmine_tweaks
+	url = git@github.com:alexandermeindl/redmine_tweaks.git
