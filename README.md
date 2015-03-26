@@ -19,6 +19,7 @@ Submodules
 - DMSF v1.4.9
 - Tags (Lastest)
 - Equipment Status Viewer (Latest)
+- Lightbox2 (Latest for Redmine 2.6)
 
 Other plugins
 ==
